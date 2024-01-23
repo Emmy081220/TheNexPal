@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="author" content="TechyDevs">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TheNexPal - Sub Admin Panel</title>
+    <!-- Favicon -->
+    <!-- <link rel="icon" href="images/methrex-favicon.png"> -->
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet">
+
+    <!-- Template CSS Files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/line-awesome.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/daterangepicker.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/animated-headline.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/flag-icon.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/additional.css">
+</head>
+<body style="background-color: #fafafa;">
+<!-- start cssload-loader -->
+<!-- <div class="preloader" id="preloader">
+    <div class="loader">
+        <svg class="spinner" viewBox="0 0 50 50">
+            <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
+        </svg>
+    </div>
+</div> -->
+<!-- end cssload-loader -->
+
+
+
+<!-- ================================
+    START USER AREA
+================================= -->
+<section class="user-area padding-top-100px px-3 padding-bottom-60px">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+               <h3 class="title font-size-24">Paypal Transaction Information</h3>
+                <div class="card-item user-card card-item-list mt-4 mb-0">
+                    <div class="card-img">
+                        <img src="images/receipt.jpg" alt="user image" class="h-auto">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">RowlandStudio</h3>
+                        <p class="card-meta">Member since April 2023</p>
+                        <div class="d-flex justify-content-between pt-3">
+                            <ul class="list-items list-items-2 flex-grow-1">
+                                <li><span>Name:</span>Emmanuel Ihezie</li>
+                                <li><span>Email:</span>designstudiorowland@gmail.com</li>
+                                <li><span>Phone:</span>(+234) 805-618-1059</li>
+                                <li><span>Amount in USD:</span>$546</li>
+                                <li><span>Amount in NGN:</span>N567,430</li>
+                                <li><span>Status:</span>Pending</li>
+                            </ul>
+                             <ul class="list-items flex-grow-1">
+                                <li><h3 class="title">Actions</h3></li>
+                                <li class="d-flex justify-content-between align-items-center"><span class="color-text-2 font-weight-medium mr-2">Approve</span><span class="theme-btn theme-btn-small theme-btn-rgb">Approve</span></li>
+                                <li class="d-flex justify-content-between align-items-center"><span class="color-text-2 font-weight-medium mr-2">Decline</span><span class="theme-btn theme-btn-small theme-btn-rgb theme-btn-danger-rgb">Decline</span></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div><!-- end card-item -->
+            </div><!-- end col-lg-12 -->
+        </div><!-- end row -->
+       
+    </div><!-- end container -->
+</section><!-- end user-area -->
+<!-- ================================
+    END USER AREA
+================================= -->
+
+
+
+
+<!-- start back-to-top -->
+<div id="back-to-top">
+    <i class="la la-angle-up" title="Go top"></i>
+</div>
+<!-- end back-to-top -->
+
+
+
+<!-- Template JS Files -->
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-select.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/daterangepicker.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/jquery.countTo.min.js"></script>
+<script src="js/animated-headline.js"></script>
+<script src="js/jquery.ripples-min.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+    const overviewMenu = document.querySelector(".overviewMenu");
+    const nameOpensSideBar = document.querySelector(".nameOpensSideBar");
+    const closeSidebar = document.querySelector(".close-container");
+
+    nameOpensSideBar.addEventListener("click", ()=> {
+        overviewMenu.classList.remove("d-none");
+    })
+
+    closeSidebar.addEventListener("click", ()=> {
+        overviewMenu.classList.add("d-none");
+    })
+</script>
+
+</body>
+
+</html>
